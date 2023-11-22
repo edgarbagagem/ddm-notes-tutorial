@@ -25,6 +25,14 @@ You will be prompted to set up an Android emulator.
 
 For iOS and MacOS testing, you must have a MacOS system in the same network as the host running Visual Studio.
 
+- On your Mac, head over to Settings > Main > Sharing and toggle Remote Access on.
+
+- On your Windows host, in Visual Studio, on the top menu bar, click on Tools > iOS > Pair to Mac.
+
+- A new window will appear and VS should be able to detect your Mac automatically. Log in using your Mac's credentials and let it install the required extensions.
+
+- After this process, you should be able to use your Mac to test .NET MAUI apps.
+
 ### Credits
 This tutorial is based on Microsoft's own [Notes Tutorial](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-app/?view=net-maui-8.0). 
 
